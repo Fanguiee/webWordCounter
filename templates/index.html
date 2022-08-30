@@ -1,0 +1,13 @@
+<h1>
+    Hi, {{name}}, how are you doing today? <br>
+    How is the weather in {{adress}}? <br>
+</h1>
+<form method="POST" action="counter">  <!NOTES: input would be shown in the url if method = "" or"get">
+    {% csrf_token %}
+    <textarea name ='words' rows = "25", cols="100">
+        
+    </textarea> <br>
+    <input type = 'submit'/>
+</form>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WoodlandPark-1.jpg"
+/>
